@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:untitled1/text_output.dart';
+
+import 'text_output.dart';
 
 class TextControl extends StatefulWidget {
   @override
@@ -8,6 +9,7 @@ class TextControl extends StatefulWidget {
 
 class _TextControlState extends State<TextControl> {
   String _mainText = 'I\'m Joe!';
+
   @override
   Widget build(BuildContext context) {
     return Center(
